@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comix Encyclopedia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700'>
+    <link rel="stylesheet" href="./css/card_style.css">
+    <link rel="stylesheet" href="./css/popup.css">
+    
+
+</head>
+<body>
+  <div id="card-header"></div>
+  <header class="header">
+    
+    <div class="header-main">
+      <p class="header-title">Comix Encyclopedia</p>
+      <div class="dropdown">
+        <button class="dropbtn">Супергерои</button>
+        <div class="dropdown-content">
+          <a href="#" class="open-popup">Человек-Паук</a>
+          <a href="#">Железный человек</a>
+          <a href="#">Капитан Америка</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Суперзлодеи</button>
+        <div class="dropdown-content">
+          <a href="#">Зеленый голбин</a>
+          <a href="#">Шокер</a>
+          <a href="#">Ящер</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Команды</button>
+        <div class="dropdown-content">
+          <a href="#">Мстители</a>
+          <a href="#">Громовержцы</a>
+          <a href="#">Люди Икс</a>
+        </div>
+      </div>
+      <div class="dropdown search">
+        <button class="dropbtn">Поиск</button>
+        <div class="dropdown-content">
+          <a href="#"><input type="search"></a>
+        </div>
+      </div>
+    </div>
+    <div class="header-menu">
+
+      
+    </div>
+
+  </header>
+  <div class="wrapper">
+
+    <h1 class="title">Comix Encyclopedia</h1>
+
+    <div id="app" class="container">
+      <card data-image="https://img01.rl0.ru/afisha/e660x-i/daily.afisha.ru/uploads/images/e/67/e67601d1438d46938e90b531439b2b4b.jpg">
+        <h1 slot="header">Капитан Америка</h1>
+        <p slot="content">Стив Ро́джерс</p>
+      </card>
+    </div>
+    
+
+    <div class="popup__bg"> 
+      <img src="./img/close-icon.png" class="close-popup">
+      
+      <div class="popup_main">
+        <div class="popup_img">
+          <img src="https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png" alt="spidey">
+        </div>
+        <div class="popup-text">
+          <div class="popup-header">
+            <h1>Человек-Паук</h1>
+          </div>
+          <div class="ch-param">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quos?</div>
+          <div class="ch-main-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id nostrum laborum exercitationem voluptatem doloribus sit nesciunt aperiam dolores deserunt, iusto impedit sequi optio, odit veritatis numquam minima dolor aut quis soluta saepe consequatur quod. Tempore est aliquam mollitia nemo? Fuga facilis praesentium iste voluptatem perspiciatis veniam minus, ex error. Consectetur!</div>
+        </div>
+
+      </div>
+    </div>  
+  </div>
+
+
+  
+    
+  <script src="./js/bd.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+      
+  <script src="./js/card.js"></script>
+
+  <script src="./js/popup.js"></script>
+
+  <script src="./js/main.js"></script>
+
+    
+</body>
+</html>
